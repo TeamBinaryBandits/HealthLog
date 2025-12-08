@@ -1,0 +1,29 @@
+.dashboard
+{
+    display: flex;
+    color:aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: hsl(0 10% 50%);
+    align-items: center;
+    justify-content: center;
+}
+.welcome :hover 
+{
+    border: hsl(0 10% 50%);
+transition: 0.2s, ease;
+}
+.button
+{
+    border: hsl(0 10% 50%);
+    transition: 0.2s, ease;
+}
+.Summary
+{
+    border: hsl(0 10% 50%);
+    transition: 0.2s, ease; 
+}
+.Features
+{
+    border: hsl(0 10% 50%);
+    transition: 0.2s, ease; 
+}
