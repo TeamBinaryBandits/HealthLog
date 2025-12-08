@@ -2,9 +2,30 @@ import React, { useState } from "react";
 import "./Dashboard.css";
 function Dashboard() {
   const [Ai, setAi] = useState();
+  const [srch, setsrch] = useState();
+  const [fone, setfone] = useState();
+  const [ftwo, setftwo] = useState();
+  const [fthree, setfthree] = useState();
   function Aibutton(e)
+
   {
 
+  }
+  function Search(e)
+  {
+
+  }
+  function SleepTracker(e)
+  {
+
+  }
+  function MoodTracker(e)
+  {
+
+  }
+  function StepCount(e)
+  {
+    
   }
   return (
     <div className="dashboard">
