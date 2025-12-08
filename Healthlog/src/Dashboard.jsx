@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 
 function Dashboard() {
+    const [Ai, setAi] = useState("");
+    
   return (
     <div className="Dashboard">
       <div className="Welcome">
@@ -10,6 +12,9 @@ function Dashboard() {
           className="Search-Bar"
           placeholder="Search previous history"
         />
+      </div>
+      <div className="AI Insights">
+        <button>AI Insights</button>
       </div>
     </div>
   );
