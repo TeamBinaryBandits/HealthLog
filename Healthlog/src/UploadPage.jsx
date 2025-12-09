@@ -1,5 +1,6 @@
-function UploadPage()
+import React, { useState } from "react";
+function UploadPage({setPage})
 {
     return(<></>)
 }
-export default UploadPage
+export default UploadPage()

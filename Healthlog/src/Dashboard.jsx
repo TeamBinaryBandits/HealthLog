@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Dashboard.css";
-function Dashboard() {
+function Dashboard({setPage}) {
   const [Ai, setAi] = useState();
   const [srch, setsrch] = useState();
   const [fone, setfone] = useState();
@@ -58,7 +58,8 @@ function Dashboard() {
         </span></div>
         </div>
     </div>
+    
   );
 }
 
-export default Dashboard;
+export default Dashboard()
