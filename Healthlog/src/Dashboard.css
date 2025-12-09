@@ -1,7 +1,7 @@
 .dashboard
 {
     display: flex;
-    color:aliceblue;
+   background-color:black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: hsl(0 10% 50%);
     align-items: center;
