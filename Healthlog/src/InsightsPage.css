@@ -1,0 +1,37 @@
+.container {
+    background-color: bisque;
+  padding: 30px;
+  max-width: 700px;
+  margin: 40px auto;
+  font-family: "Inter", sans-serif;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #222;
+}
+
+
+.ai-box {
+  padding: 20px;
+  background: #fcfcfc;
+  border-radius: 12px;
+  border: 1px solid #e7e7e7;
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+}
+
+.ai-box h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+}
+
+.ai-box p {
+  color: #555;
+  line-height: 1.5;
+}
