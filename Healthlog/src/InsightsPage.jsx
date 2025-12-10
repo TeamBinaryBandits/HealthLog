@@ -1,6 +1,6 @@
 import './InsightsPage.css';
 import React, {useState} from "react";
-function InsightsPage()
+export default function InsightsPage()
 {
 const [healthdata, sethealthdata] = useState(null);
 const [insight, setinsights] = useState([]);
@@ -27,4 +27,3 @@ const getInsights = (data) =>
     
 }
 }
-export default InsightsPage

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-function UploadPage({setPage})
+export default function UploadPage({setPage})
 {
     return(<></>)
 }
-export default UploadPage()

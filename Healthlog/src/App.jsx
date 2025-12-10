@@ -5,10 +5,12 @@ import Dashboard from "./Dashboard.jsx";
 import InsightsPage from "./InsightsPage.jsx";
 import ProfilePage from "./ProfilePage.jsx";
 import UploadPage from "./UploadPage.jsx";
+import ToggleDark from "./ToggleDark.jsx"
 function App() {
   const [page, setPage] = useState("login");
 
   return (
+    <>
     <div>
       {page === "login" && <Login setPage={setPage} />}
       {page === "signup" && <Signup setPage={setPage} />}
@@ -26,6 +28,8 @@ function App() {
         <button onClick={() => setPage("upload")}>Upload</button>
       </div>
     </div>
+      <ToggleDark/>
+    </>
   );
 }
 
